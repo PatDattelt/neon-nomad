@@ -1,23 +1,9 @@
-# NEON NOMAD – Offizielle Informationswebseite
+# NEON NOMAD
 
-Rechtliche Informationswebseite für das mobile Spiel **NEON NOMAD** von **PatDattelt**.
+Offizielle Informationswebseite zum mobilen Spiel **NEON NOMAD** von **PatDattelt**.
 
-## Seiten
-- [Startseite](index.html)
-- [Datenschutzerklärung](datenschutz.html)
-- [Impressum](impressum.html)
+- [NEON NOMAD – Webseite](https://patdattelt.github.io/neon-nomad/)
+- [Datenschutzerklärung](https://patdattelt.github.io/neon-nomad/datenschutz.html)
+- [Impressum](https://patdattelt.github.io/neon-nomad/impressum.html)
 
-Das Design steht in `style.css`. Alle Seiten sind statische HTML-Dateien ohne Analyse-Tracking oder externe Webfonts.
-
-## GitHub Pages aktivieren
-
-1. Im Repository **Settings → Pages** öffnen: https://github.com/PatDattelt/neon-nomad/settings/pages
-2. Unter **Build and deployment**: **Source → Deploy from a branch**.
-3. **Branch → main**, Verzeichnis **/(root)** auswählen und **Save**.
-4. Danach die öffentliche Startseite https://patdattelt.github.io/neon-nomad/ und https://patdattelt.github.io/neon-nomad/datenschutz.html prüfen.
-
-## Wichtiger Veröffentlichungsstand
-
-Diese Datenschutzhinweise beschreiben die aktuelle HTML-/Vorbereitungsfassung des Spiels. **Echte AdMob-Anzeigen und Google UMP sind noch nicht integriert**. Vor der Veröffentlichung einer Android-App mit tatsächlicher Werbeeinbindung müssen die Datenschutzerklärung und die Datensicherheitsangaben anhand der eingebauten SDK-Versionen geprüft und aktualisiert werden. Die gesetzlich geforderten Kontaktangaben sind ebenfalls vor Veröffentlichung zu prüfen.
-
-Keinen Spiel-Quellcode, keine Zugangsdaten oder private Entwicklungsdateien in diesem öffentlichen Repository ablegen.
+**Hinweis:** Das Spiel befindet sich in der Vorbereitung für Android. Die Datenschutzerklärung muss vor der Integration echter AdMob-Werbung aktualisiert werden. Dieses Repository enthält ausschließlich statische Webseiten, nicht den Spiel-Quellcode.
