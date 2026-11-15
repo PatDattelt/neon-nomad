@@ -1,9 +1,10 @@
-# NEON NOMAD
+# Neon Jumper – Jumping Home
 
-Offizielle Informationswebseite zum mobilen Spiel **NEON NOMAD** von **PatDattelt**.
+Official legal-information website for **Neon Jumper – Jumping Home** by **PatDattelt**. The original character skin is called Neon Nomad.
 
-- [NEON NOMAD – Webseite](https://patdattelt.github.io/neon-nomad/)
-- [Datenschutzerklärung](https://patdattelt.github.io/neon-nomad/datenschutz.html)
+- [Official website](https://patdattelt.github.io/neon-nomad/)
+- [Datenschutzerklärung (DE)](https://patdattelt.github.io/neon-nomad/datenschutz.html)
+- [Privacy Policy (EN)](https://patdattelt.github.io/neon-nomad/privacy.html)
 - [Impressum](https://patdattelt.github.io/neon-nomad/impressum.html)
 
-**Hinweis:** Das Spiel befindet sich in der Vorbereitung für Android. Die Datenschutzerklärung muss vor der Integration echter AdMob-Werbung aktualisiert werden. Dieses Repository enthält ausschließlich statische Webseiten, nicht den Spiel-Quellcode.
+GitHub Pages must be enabled and the URLs publicly reachable for Google Play. These pages describe the current release candidate with production ads disabled; review again before enabling real AdMob inventory. This repository contains legal pages only, not the game source.
