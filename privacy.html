@@ -11,33 +11,54 @@
 <main class="wrap"><article class="paper">
 <p class="kicker">PRIVACY</p>
 <h1>Privacy Policy for Neon Jumper – Jumping Home</h1>
-<p class="muted">Last updated: November 15, 2026 · Current Android release candidate has real advertising disabled; separate debug builds use Google demo ads for adults.</p>
-<div class="notice"><strong>Current build:</strong> The Android application includes the Google Mobile Ads SDK and Google User Messaging Platform (UMP). The current release build (v0.1.8) does not request or display ads. Production ads for adults have been prepared in code but remain disabled until consent messaging, age safeguards, and data-flow checks are completed. Only a separate debug testing build requests Google's official demo ads for users classified as adults. Real-money ad serving is not enabled. We will review this policy and the consent flow before enabling real advertising.</div>
-<h2>1. Controller and privacy contact</h2>
-<address class="contact"><strong>Patrick Beck</strong> (developer name: PatDattelt)<br>Siedlung 25<br>64750 Lützelbach<br>Germany<br>Email: <a href="mailto:neon-nomad@gmx.de">neon-nomad@gmx.de</a></address>
-<h2>2. Audience and age screening</h2>
-<p>The game is designed for children, teenagers and adults. It asks for a date of birth to assign a local age group. The complete date of birth is not stored permanently; the age group is stored locally. The age check can be repeated in Settings.</p>
-<p>No ads are requested in the current release build. In the separate debug build, demo ads and ad SDK initialization are enabled only for users classified as adults (18+). Children, teenagers and users with unconfirmed ages do not receive demo ad requests from the game logic.</p>
-<h2>3. Local game progress</h2>
-<p>Neon Jumper stores progress locally, including unlocked stages, coins, orbs, stars, selected skins and effects, audio preferences, and control settings. The browser version uses browser storage; the Android version uses local WebView storage. No account with the developer or developer-operated cloud database is required.</p>
-<p>Players can voluntarily export or import save files. The user chooses the save file location and controls any copies. The developer does not automatically receive these backups.</p>
-<h2>4. Google Mobile Ads SDK</h2>
-<p>The current Android release candidate includes Google Mobile Ads and UMP but does not load real ads. A separate debug version uses official Google demo ad units for adult testing. Demo ads do not generate advertising revenue, but the SDK may still communicate with Google and process technical information when initialized.</p>
-<p>Depending on SDK usage and consent status, Google may process IP addresses (which can be used to infer approximate location), device or app identifiers, ad interactions, app interactions, and diagnostic or performance information for ad delivery, analytics, and fraud prevention. The Android advertising ID permission (AD_ID) is expressly removed from the current manifest, but other technical identifiers may still be processed. Google and its advertising technology partners may be recipients of data where those services are used. See <a href="https://policies.google.com/privacy">Google's Privacy Policy</a> for additional information about processing, retention, and international transfers.</p>
-<p><strong>Planned production ads:</strong> Once separately activated, adults may receive full-screen and optional rewarded ads. Google Mobile Ads may process IP addresses (approximate location), app and ad interactions, diagnostics, and app or device identifiers for ad delivery, measurement, and fraud prevention. The Android advertising-ID permission remains excluded. No ad requests are intended for minors or users with unknown age. The live-ad feature remains switched off in the current release configuration.</p>
-<h2>5. Consent and advertising safeguards</h2>
-<p>For adult debug testing, the application uses UMP to request consent information and display a consent form if required and made available through AdMob. A privacy-options entry is offered where required. Demo ads in the debug version are also blocked unless Google UMP explicitly indicates that ad requests are permitted. The release version does not currently initialize the advertising SDK to serve ads. The prepared ad flow requires an adult age classification and an affirmative UMP canRequestAds() result. If a consent update fails, a previous status may be relied on only if UMP itself still confirms that ad requests are permitted. Otherwise no ads are requested. We will publish and test the AdMob consent message and review family policies before enabling real advertising.</p>
-<h2>6. Retention, export and deletion</h2>
-<p>Locally saved game data generally remains on the device until it is deleted through in-game or device/browser functions. Exported backups remain wherever the user chooses to store them until deleted by the user. Google may process and retain technical data when demo ad services are active; the developer does not directly control Google's retention periods. For details, please consult Google's privacy information.</p>
-<h2>7. Contact by email</h2>
-<p>If you contact the developer by email, information you provide will be used to answer the inquiry, based on handling your request or legitimate interests under Article 6(1)(b) or (f) GDPR as applicable. Messages are generally retained only as long as necessary for the inquiry and any legal retention requirements. Please do not send unnecessary data relating to children.</p>
-<h2>8. Website hosting (GitHub Pages)</h2>
-<p>This information website is intended to be hosted by GitHub Pages. When visiting it, technically necessary connection data such as IP address, browser information and request times may be transmitted to GitHub's infrastructure and logged to ensure reliable and secure service. This is based on a legitimate interest in providing the website under Article 6(1)(f) GDPR. This site does not include custom visitor analytics, ad trackers or external web fonts. See <a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement">GitHub's privacy statement</a> for information about transfers and retention.</p>
-<h2>9. Privacy rights</h2>
-<p>Subject to applicable legal requirements, individuals may have rights of access, rectification, erasure, restriction, portability and objection, and may withdraw consent for the future. You may also complain to a data protection supervisory authority. To exercise your rights, email <a href="mailto:neon-nomad@gmx.de">neon-nomad@gmx.de</a>.</p>
-<h2>10. Updates</h2>
-<p>This policy will be reviewed when app functionality or advertising configuration changes, especially before live Google AdMob ads are enabled. The version published here applies.</p>
+<p class="muted">Last updated: November 16, 2026 · Developer: PatDattelt</p>
+<div class="notice"><strong>Current version:</strong> This policy covers the Android game, its accompanying website and Google AdMob advertising planned for a later release. Real advertising is disabled in the current internal Google Play test build (version 0.1.8). Separate debug builds may show official Google demo advertisements to adult testers. Real ads are intended to be enabled for adults only after the relevant privacy, consent and release checks have succeeded. Until that happens, the production advertising processing described below does not take place.</div>
 <p class="muted"><a href="datenschutz.html" lang="de">Deutsche Datenschutzerklärung</a></p>
+
+<h2>1. Controller and contact</h2>
+<address class="contact"><strong>Patrick Beck</strong> (developer name: PatDattelt)<br>Siedlung 25<br>64750 Lützelbach<br>Germany<br>Email: <a href="mailto:neon-nomad@gmx.de">neon-nomad@gmx.de</a></address>
+<p>This policy applies to the Android game “Neon Jumper – Jumping Home” and its accompanying information website. Google's own privacy notices additionally apply to data processed by the Google Play Store.</p>
+
+<h2>2. Age screening and protection of minors</h2>
+<p>The game is intended for children, teenagers and adults. Before playing, users are asked for their date of birth to determine an age category (under 13, 13–17 or 18 and over). The full date of birth is not retained after the age group has been determined and is not sent to a server operated by the developer. Only the resulting age category is stored locally on the device. Users can repeat the age check in the game settings.</p>
+<p>The age category controls advertising safeguards. The game logic does not initiate Google AdMob ad requests for users under 18 or with an unknown age category. Players do not need to create an account. Visiting an external website through a link may cause the website's hosting provider to process technically necessary connection data (see section 8).</p>
+
+<h2>3. Locally stored game data and backups</h2>
+<p>The game stores information such as completed and unlocked levels, scores and stars, coins and orbs, unlocked or obtained game items, character skins, language, music, sound and control preferences and the local age category. In the Android app this data is stored locally using WebView storage. The developer does not operate a player-account system or a separate game-save cloud database for these records.</p>
+<p>Local storage is necessary to provide game progress and settings. The game does not automatically send those records to PatDattelt. Progress can be reset in the game, deleted through Android app-data settings or removed by uninstalling the app. Players may export and import local backup files themselves. Exported backups remain at the location selected by the player until they are deleted there; the app does not automatically upload them to the developer.</p>
+
+<h2>4. Advertising through Google AdMob</h2>
+<p>The game is intended to be funded by advertisements only; it has no in-app purchases with real money. Once live advertising is enabled, adult users may see occasional full-screen ads and may choose to watch rewarded advertisements to receive in-game rewards. Ad requests require a confirmed age category of 18 or over and a positive result from Google's consent-management checks. Whether ads are personalised depends on applicable settings and privacy choices.</p>
+<p>The Android app includes the <a href="https://developers.google.com/admob/android/privacy/play-data-disclosure">Google Mobile Ads SDK</a>. According to Google, when the SDK is used to request advertisements it may collect and transmit the following categories of personal or device-related information:</p>
+<ul>
+<li>IP address, which may be used to derive an approximate location;</li>
+<li>app and ad interactions, such as app launches, taps and video views;</li>
+<li>diagnostic and performance data, such as startup time, errors, responsiveness and battery use;</li>
+<li>app, device and, where applicable, other technically available identifiers.</li>
+</ul>
+<p>The data may be used and shared by Google and participating advertising technology partners for ad delivery and measurement, analytics, security and fraud prevention. The permission for the Android advertising ID (<code>AD_ID</code>) is explicitly removed from the current app manifest. This does not exclude the processing of other technical identifiers. Google states that the Mobile Ads SDK encrypts transmitted data in transit using TLS.</p>
+<p>Details about the data recipients, retention periods and possible international transfers can be found in <a href="https://policies.google.com/privacy?hl=en">Google's Privacy Policy</a> and in provider information linked from any consent form displayed. PatDattelt has limited control over retention periods for data that Google processes independently.</p>
+
+<h2>5. Consent and privacy settings</h2>
+<p>For adult users, the Android app uses Google's User Messaging Platform (UMP) to check consent status and, where required under applicable rules and made available by Google, present privacy notices and choices. The relevant choice is taken into account for advertising. Where consent is legally required, the corresponding processing is based on Article 6(1)(a) GDPR. Consent can be withdrawn with effect for the future. Other legal grounds for strictly necessary security processing may include Article 6(1)(f) GDPR where its requirements are met.</p>
+<p>If Google makes a privacy options form available, it can be opened in the game under <strong>Settings → Privacy → Manage advertising consent</strong>. The game requests ads only when UMP reports <code>canRequestAds()</code> as true. This technical result does not necessarily mean a user has explicitly consented: in some cases Google determines that an additional consent form is not required. If ads cannot be requested, the game does not show an AdMob ad. The game logic does not request ads for minors in any case.</p>
+<p><strong>Current testing status:</strong> The EU consent flow for future live advertising has not yet been fully verified. Live advertising remains disabled in the current Google Play test build and will only be enabled after additional checks of the SDK and required disclosures.</p>
+
+<h2>6. Retention and security</h2>
+<p>Local progress is generally kept on the device until users reset it, clear the app's data or remove the app. Separately exported backups remain wherever the user saved them. Technical ad and consent data may be subject to the retention practices of the relevant service providers. Google states that its SDK uses encrypted connections in transit. This does not mean that a backup file manually exported by a user is automatically encrypted.</p>
+
+<h2>7. Contact by email</h2>
+<p>If you contact PatDattelt, the information you send is used to handle and respond to your inquiry. Depending on the nature of the request, processing is based on Article 6(1)(b) or (f) GDPR. Messages are kept only as long as necessary to handle the inquiry and comply with applicable retention obligations or protect legitimate claims. Please do not send unnecessary personal information, especially sensitive data concerning children.</p>
+
+<h2>8. Information website (GitHub Pages)</h2>
+<p>The accompanying information website is served through GitHub Pages. When visitors open it, their IP address, browser and connection details and request timestamps are necessarily transmitted to the hosting infrastructure and may be logged. This serves the legitimate interest in providing a secure, reliable website (Article 6(1)(f) GDPR). The website does not use developer-added visitor analytics, advertising trackers or external web fonts.</p>
+<p>For details on GitHub's data handling and international transfers, see <a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement">GitHub's Privacy Statement</a>. The website operator has limited control over GitHub's technical log retention.</p>
+
+<h2>9. Your rights</h2>
+<p>Subject to applicable law, you may have rights of access, rectification, erasure, restriction, portability and objection, and the right to withdraw consent for the future. You may also lodge a complaint with a relevant data protection supervisory authority. Contact <a href="mailto:neon-nomad@gmx.de">neon-nomad@gmx.de</a> to exercise your rights. You can delete locally stored game data yourself through the app or Android settings; for data processed independently by Google, Google's own privacy and account tools may also be relevant.</p>
+
+<h2>10. Changes to this policy</h2>
+<p>We will update this policy if the game features, integrated SDKs or personal-data processing change. Before enabling real AdMob ads, we will specifically recheck the actual data flows, consent options and Google Play data declarations. The current version published on this page applies.</p>
 </article></main>
 <footer>© 2026 PatDattelt <a href="privacy.html">Privacy</a><a href="datenschutz.html">Datenschutz</a><a href="impressum.html">Legal notice</a></footer>
 </body></html>
